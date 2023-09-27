@@ -3,7 +3,7 @@ import yt_dlp
 
 while True:
     #enter url for download
-    url = input("Enter video url: ")
+    url = input("Enter Youtube video url: ")
 
     ydl_opts = {}
 
@@ -19,3 +19,5 @@ while True:
     else:
         print("Thank you for using this software.")
         break
+
+#convert to executable in near furute
